@@ -5,8 +5,19 @@ set expandtab
 set smarttab
 set shiftwidth=4
 set autoindent
+set backspace=indent,eol,start
 
 set ruler
+set number relativenumber
+
+set showcmd
+set cmdheight=2
+set wildmenu
+set ignorecase
+set smartcase
+set visualbell
+
+map Y y$
 
 augroup numbertoggle
   autocmd!
