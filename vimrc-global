@@ -1,0 +1,15 @@
+# append to ~/.vimrc
+set tabstop=4
+set hlsearch
+set expandtab
+set smarttab
+set shiftwidth=4
+set autoindent
+
+set ruler
+
+augroup numbertoggle
+  autocmd!
+  autocmd BufEnter,FocusGained,InsertLeave * set relativenumber
+  autocmd BufLeave,FocusLost,InsertEnter   * set norelativenumber
+augroup END

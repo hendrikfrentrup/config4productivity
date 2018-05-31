@@ -1,0 +1,5 @@
+# this should be appended to the global git-config file ~/.gitconfig
+[alias]
+    st = status
+    co = checkout
+    plog = log --all --decorate --oneline --graph
